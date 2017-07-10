@@ -1,0 +1,7 @@
+<%= form_for @episode do |f| %>
+  <%= f.label :guests, 'Guests' %>:
+  <%= f.text_field :guests %><br />
+  <%= f.label :rating, 'Rating' %>:
+  <%= f.text_field :rating %><br />
+  <%= f.submit %>
+<% end %>
